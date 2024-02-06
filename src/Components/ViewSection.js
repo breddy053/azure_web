@@ -1,38 +1,6 @@
-// import React from "react";
-// import "../Styles/UploadSection.css";
-// import FileUploader from "./FileUploader";
-// import CommonButton from "./CommonButton";
-
-// function ViewSection = ()=> {
-//   return (
-//     <div>ViewSection</div>
-//   )
-// }
-
-// export default ViewSection
-
-// import React from "react";
-// import "../Styles/ViewSection.css";
-
-// const ViewSection = ({ uploadedFiles }) => {
-//   return (
-//     <div className="view-section">
-//       {uploadedFiles.map((file, index) => (
-//         <div key={index} className="content-box">
-//           {/* Display the content for each uploaded file */}
-//           <h2>File {index + 1}</h2>
-//           {/* You can add more details or display the file content here */}
-//         </div>
-//       ))}
-//     </div>
-//   );
-// };
-
-// export default ViewSection;
-
 import React from "react";
 import "../Styles/ViewSection.css";
-import FileUploader from "./FileUploader";
+// import FileUploader from "./FileUploader";
 
 
 const ViewSection = ({ uploadedFiles,onDeleteFile }) => {
