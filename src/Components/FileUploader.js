@@ -2,7 +2,7 @@ import React, { useCallback, useState } from "react";
 import { useDropzone } from "react-dropzone";
 import "../Styles/UploadSection.css";
 import { MdCloudUpload } from "react-icons/md"; //2.5k (gzipped: 1.2k)
-import ViewSection from "./ViewSection";
+// import ViewSection from "./ViewSection";
 
 const FileUploader = ({ onFileUpload }) => {
   const [selectedFile, setSelectedFile] = useState(null);
@@ -21,12 +21,10 @@ const FileUploader = ({ onFileUpload }) => {
     onDrop,
     accept: "audio/*,video/*", // Specify allowed file types (audio and video)
   });
-  const handleDeleteFile = () => {
-    setSelectedFile(null);
-    // You can also add additional logic to delete the file from your application if needed.
-  
-  };
-
+  // const handleDeleteFile = () => {
+  //   setSelectedFile(null);
+   // You can also add additional logic to delete the file from your application if needed.
+  // };
   return (
     <div {...getRootProps()} className="file-uploader">
       <input {...getInputProps()} />
