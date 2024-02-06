@@ -1,0 +1,92 @@
+.upload-section{
+    /* background-color: #FF5F5D; */
+    background-color: white;
+    /* opacity: 0.4; */
+
+    /* background-color: #D03E3E;
+  opacity: .7; */
+    /* background: url('../images/haze5.jpg'); */
+  color: black;
+  /* flex-direction: column; */
+  width: 80%;
+  height: 70vh;
+  /* display: flex; */
+  align-items:flex-start;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.glass-container {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: -40px;
+    backdrop-filter: blur(19px); /* Apply the glass effect here */
+    width: 40%;
+    color: black;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    height:45vh;
+  }
+
+  .glass-container p {
+      
+    margin: 0;
+    font-weight: 600;
+    color: black;
+    text-align: center;
+  }
+
+  .file-uploader {
+    background: rgba(255, 255, 255, 0.2);
+    border: 2px dashed rgba(255, 255, 255, 0.4);
+    border-radius: 8px;
+    padding: 20px;
+    display: flex;
+    height: 40vh;
+    flex-direction: column;
+    align-self: center;
+    justify-content: center;
+    cursor: pointer;
+    outline: none;
+    transition: border-color 0.3s ease-in-out;
+  }
+
+
+  .file-uploader:hover {
+    border-color: rgba(213, 178, 178, 0.8);
+  }
+  
+  .file-uploader p {
+    margin: 0;
+    color: black;
+    text-align: center;
+  }
+  p1 {
+    margin-top: 0px;
+    font-size:large;
+    font-weight: 700;
+    padding: 10px;
+    align-self: flex-start;
+    margin-left: 20px;
+  }
+  p2{
+    margin-left: 30px;
+    align-self: flex-start;
+    margin-bottom: 20px;
+  }
+  .content-block{
+    display:flex;
+        
+    justify-content:space-around;
+  }
+  .text-block{
+    flex-direction: column;
+     display: flex;
+    /* align-items:flex-start; */
+    /* justify-content: center;  */
+  }
