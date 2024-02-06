@@ -11,8 +11,8 @@
 //   return (
 //     <div className="upload-section">
 //       <div className="text-block">
-//         <P1>Upload Files </P1>
-//         <P2>Upload Audio/Video files of any format. Max Duration: 20 min </P2>
+//         <p1>Upload Files </p1>
+//         <p2>Upload Audio/Video files of any format. Max Duration: 20 min </p2>
 //       </div>
 
 //       <div className="content-block">
@@ -51,8 +51,8 @@ const UploadSection = () => {
   return (
     <div className="upload-section">
       <div className="text-block">
-        <P1>Upload Files </P1>
-        <P2>Upload Audio/Video files of any format. Max Duration: 20 min </P2>
+        <p1>Upload Files </p1>
+        <p2>Upload Audio/Video files of any format. Max Duration: 20 min </p2>
       </div>
 
       <div className="content-block">
